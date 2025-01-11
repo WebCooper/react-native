@@ -11,10 +11,7 @@ export default function Index() {
       }}
     >
         <Text className="text-3xl font-rubik-bold my-10">Welcome to ReState</Text>
-        <Link href="/sign-in">Sign in</Link>
-        <Link href="/explore">Explore</Link>
-        <Link href="/profile">Profile</Link>
-        <Link href="/properties/1">Property</Link>
+
     </View>
   );
 }
