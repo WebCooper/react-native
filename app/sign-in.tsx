@@ -1,10 +1,11 @@
-import {View, Text, SafeAreaView, ScrollView, Image, TouchableOpacity, Alert} from 'react-native'
+import {View, Text,ScrollView, Image, TouchableOpacity, Alert} from 'react-native'
 import React from 'react'
 import images from "@/constants/images";
 import icons from "@/constants/icons";
 import {login} from "@/lib/appwrite";
 import {useGlobalContext} from "@/lib/global-provider";
 import {Redirect} from "expo-router";
+import {SafeAreaView} from "react-native-safe-area-context";
 
 
 const SignIn = () => {
